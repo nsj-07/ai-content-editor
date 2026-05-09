@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Fix Tiptap headings and lists inside prose */
+@layer base {
+  .tiptap h1 { font-size: 2em; font-weight: 700; margin: 0.67em 0; }
+  .tiptap h2 { font-size: 1.5em; font-weight: 700; margin: 0.75em 0; }
+  .tiptap h3 { font-size: 1.17em; font-weight: 700; margin: 0.83em 0; }
+  .tiptap ul { list-style-type: disc; padding-left: 1.5em; margin: 0.5em 0; }
+  .tiptap ol { list-style-type: decimal; padding-left: 1.5em; margin: 0.5em 0; }
+  .tiptap li { margin: 0.25em 0; }
+  .tiptap p { margin: 0.5em 0; }
+  .tiptap strong { font-weight: 700; }
+  .tiptap em { font-style: italic; }
+}
