@@ -16,10 +16,10 @@ export interface EditorDocument {
 export function createEmptyDocument(): EditorDocument {
   return {
     id: crypto.randomUUID(),
-    title: '',
-    slug: '',
+    title: 'The Future of Content Creation',
+    slug: 'the-future-of-content-creation',
     content: null,
-    wordCount: 0,
+    wordCount: 104, // Approx word count of default starter content
     status: 'draft',
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
