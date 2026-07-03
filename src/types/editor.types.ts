@@ -16,8 +16,8 @@ export interface EditorDocument {
 export function createEmptyDocument(): EditorDocument {
   return {
     id: crypto.randomUUID(),
-    title: 'The Future of Content Creation',
-    slug: 'the-future-of-content-creation',
+    title: '',
+    slug: '',
     content: null,
     wordCount: 104, // Approx word count of default starter content
     status: 'draft',

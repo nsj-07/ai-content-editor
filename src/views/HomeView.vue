@@ -7,19 +7,19 @@ const activeStep = ref(0)
 
 const tourSteps = [
   {
-    title: '✨ Welcome to the WordPress AI Assistant!',
+    title: 'Welcome to the WordPress AI Assistant!',
     desc: 'This premium, state-of-the-art content drafting dashboard is built with Vue 3 Composition API, TypeScript, and Pinia. Let\'s explore the features.'
   },
   {
-    title: '🪄 Selection Bubble Actions',
+    title: 'Selection Bubble Actions',
     desc: 'Simply highlight/select any paragraph or sentence in the editor canvas. A glowing "Ask AI" bubble popover will appear instantly to refine your text.'
   },
   {
-    title: '🏷️ Instant Streaming Side Panel',
+    title: 'Instant Streaming Side Panel',
     desc: 'Use the side presets on the right to auto-suggest 5 SEO headings or shorten sections. Watch the response render token-by-token in real time!'
   },
   {
-    title: '🌐 Simulated REST Publisher',
+    title: 'Simulated REST Publisher',
     desc: 'Click "Publish Post" to test the WordPress REST pipeline. You\'ll see network logging consoles and raw JSON responses. Turn off mock modes in "Settings" at any time!'
   }
 ]
@@ -51,7 +51,7 @@ function nextStep() {
       @click="showTour = true; activeStep = 0"
       class="fixed bottom-4 left-4 z-40 px-3 py-1.5 bg-slate-850 hover:bg-slate-800 text-slate-350 hover:text-white border border-slate-700 rounded-lg text-[10px] font-bold tracking-wider uppercase shadow-xl transition-all scale-on-hover active:scale-95 flex items-center gap-1.5 cursor-pointer"
     >
-      <span>💡</span> Quick Demo Tour
+      Quick Demo Tour
     </button>
 
   </div>

@@ -122,9 +122,6 @@ const btnOn =
       <span class="text-[10px] text-gray-400 font-bold font-mono tracking-wide uppercase bg-white border border-gray-150 px-2.5 py-1 rounded-md">
         {{ editorStore.wordCount }} words
       </span>
-      <!-- <span class="text-[10px] text-gray-400 font-bold font-mono tracking-wide uppercase bg-white border border-gray-150 px-2.5 py-1 rounded-md">
-        ⏱️ {{ Math.max(1, Math.ceil(editorStore.wordCount / 200)) }} min read
-      </span> -->
     </div>
   </div>
 </template>
